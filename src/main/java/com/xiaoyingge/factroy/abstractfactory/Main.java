@@ -8,7 +8,7 @@ package com.xiaoyingge.factroy.abstractfactory;
 public class Main {
 
     public static void main (String[] args) {
-        AbstractFactory f = new MarvelFactory();
+        BaseMovieFactory f = new MarvelMovieFactory();
         f.getHero().say();
         f.getSuperPower().show();
     }

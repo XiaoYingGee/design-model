@@ -7,7 +7,7 @@ package com.xiaoyingge.factroy.abstractfactory;
  * @description
  * @date 2020/4/21 0:25
  */
-public class DcFactory extends AbstractFactory {
+public class DCMovieFactory extends BaseMovieFactory {
 
     @Override
     Hero getHero () {
