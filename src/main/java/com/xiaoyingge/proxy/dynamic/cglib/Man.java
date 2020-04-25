@@ -1,6 +1,8 @@
 package com.xiaoyingge.proxy.dynamic.cglib;
 
 /**
+ * 没有实现任何接口
+ *
  * @author xiaoyingge
  * @description
  * @date 2020/4/25 15:50
