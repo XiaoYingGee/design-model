@@ -7,6 +7,8 @@ package com.xiaoyingge.visitor;
  */
 public interface Visitor {
 
+    void visit (Compute compute);
+
     void visitCpu (CPU cpu);
 
     void visitMemory (Memory memory);

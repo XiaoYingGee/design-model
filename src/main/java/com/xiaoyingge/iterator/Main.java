@@ -8,10 +8,15 @@ package com.xiaoyingge.iterator;
 public class Main {
 
     public static void main (String[] args) {
-        MyList<String> myList = new MyList<>();
-        myList.add("1");
-        String s = myList.get(0);
-        System.out.println(s);
+        BaseList<String> myList = new MyList<>();
+        for (int i = 0; i < 10; i++) {
+            myList.add("name" + i);
+        }
+
+        MyIterator<String> iterator = myList.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
     }
 

@@ -8,7 +8,7 @@ package com.xiaoyingge.visitor;
 public class Main {
 
     public static void main (String[] args) {
-        ComputePartStore store = new ComputePartStore();
+        ComputeStore store = new ComputeStore();
         store.sell(new Consumer());
     }
 }
